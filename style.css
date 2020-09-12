@@ -1,0 +1,35 @@
+/* CSS files add styling rules to your content */
+@import url("https://fonts.googleapis.com/css2?family=Titillium+Web:ital@1&display=swap");
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 2em;
+  background: hsla(283, 91%, 28%, 1);
+  background: linear-gradient(45deg, hsla(283, 91%, 28%, 1) 14%, hsla(283, 18%, 54%, 1) 52%, hsla(289, 13%, 76%, 1) 86%);
+  background: -moz-linear-gradient(45deg, hsla(283, 91%, 28%, 1) 14%, hsla(283, 18%, 54%, 1) 52%, hsla(289, 13%, 76%, 1) 86%);
+  background: -webkit-linear-gradient(45deg, hsla(283, 91%, 28%, 1) 14%, hsla(283, 18%, 54%, 1) 52%, hsla(289, 13%, 76%, 1) 86%);
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#620687", endColorstr="#93759F", GradientType=1 );
+}
+
+h1 {
+  font-style: italic;
+  color: #373fff;
+}
+
+#t {
+  color: red;
+}
+
+#a {
+  color: yellow;
+}
+
+#v {
+  color: blue;
+}
+
+#i {
+  color: violet;
+}
